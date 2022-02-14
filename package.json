@@ -1,4 +1,8 @@
 {
+"name": "private-channel",
+  "version": "1.1.0",
+  "description": "Private Bot Testing Channel",
+  "license": "MIT",
   "devDependencies": {
     "node": "^16.6.1"
   },
