@@ -1,32 +1,3 @@
-const express = require("express");
-const app = express();
-
-app.get("/", (req, res) => {
-  res.send("Hello world!");
-});
-
-app.listen(3000, () => {
-  console.log(`
-      [===========================================]
-             Discord Bot Network System#7248
-                   Developed by Zedge#9417
-
-                    Achievements =)
-      [===========================================]
-      `)
-      console.log("\x1b[32m", "System loading, please wait...")
-console.clear();
-console.log('\x1b[36m%s\x1b[0m', "[category]: General routers loading...");
-  console.log("_______________________");
-   console.log("|  help.js loaded.    |");
-   console.log("|  addbot.js loaded.  |");
-   console.log("|  accept.js loaded.  |");
-   console.log("|  decline.js loaded. |");
-   console.log("|  eval.js loaded.    |");
-   console.log("|  usage.js loaded.   |");
-   console.log("_______________________");
-}); 
-
 const aoijs =  require("aoi.js");
 
 const bot = new aoijs.Bot({
@@ -215,3 +186,93 @@ $onlyIf[$checkContains[$channelCategoryID;your category id where people cant use
 `
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log(`
+      [===========================================]
+             Discord Bot Network System#7248
+                   Developed by Zedge#9417
+
+                    Achievements =)
+      [===========================================]
+      `)
