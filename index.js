@@ -15,11 +15,6 @@ const bot = new aoijs.Bot({
 
 bot.onMessage();
 
-bot.variables({
-MSGID: "",
-TSID: ""
-})
-
 bot.command({
 
     name: "$alwaysExecute",
@@ -56,8 +51,6 @@ $let[id;$createChannel[your server id;$username-prvtchnl;Text;yes;your private c
 
 $deletecommand
 
-$setUserVar[TSTID;$authorid]
-
 $onlyForChannels[your private bot testing channel where people message and create a private testing channel of the owner;]
 
 `
@@ -71,8 +64,6 @@ description: "Add a bot your private channel.",
  usage: "add <bot id>",
  category: "Bot Developer",
     code:`
-
-$setUserVar[MSGID;$message[1]]
 
 $modifyChannelPerms[$message[1];$channelID;+viewchannel;+sendmessage;+attachfiles;+embedlinks;+managemessages;+externalemojis]
 
