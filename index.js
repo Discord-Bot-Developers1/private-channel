@@ -13,6 +13,8 @@ const bot = new aoijs.Bot({
     }
 });
 
+bot.onMessage();
+
 bot.variables({
 MSGID: "",
 TSID: ""
